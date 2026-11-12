@@ -7,7 +7,7 @@ cask "scrubby" do
   desc "Swipe through browser tabs and windows with your trackpad"
   homepage "https://github.com/Kudostoy0u/Scrubby"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Scrubby.app"
 
